@@ -41,13 +41,13 @@ def recognize_hand_gesture(hand_landmarks):
         if not suara_sedang_diputar:
             suara.play()
             suara_sedang_diputar = True
-        print("Jempol Terangkat")
-        return "Jempol Terangkat"
+        print("HIDUP MAHASISWA!")
+        return "HIDUP MAHASISWA!"
 
     else:
         suara_sedang_diputar = False
-        print ("Tidak Ada Gerakan Tangan yang Dikenali")
-    return "Tidak Ada Gerakan Tangan yang Dikenali"
+        print ("HIdup Jokowi!")
+    return
 
 # fungsi untuk mendeteksi gerakan tangan
 def detect_hand_gesture(frame, hands):
